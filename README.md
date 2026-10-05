@@ -446,7 +446,7 @@ Protects admin routes:
 - Checks for admin role
 - Returns 403 if not authorized
 
-## File Uploads
+## File Uploads 
 
 Product images are uploaded using Multer:
 - **Storage**: `/media/uploads/`
@@ -454,7 +454,7 @@ Product images are uploaded using Multer:
 - **Max size**: 5MB per file
 - **Allowed formats**: Configured in multer.js
 
-## Security Features
+## Security Features section
 
 - Helmet.js for security headers
 - HttpOnly cookies for session management
